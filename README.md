@@ -40,7 +40,7 @@ NetXbox/
 │   ├── network/        # HTTP client (WinHTTP / raw socket)
 │   ├── renderer/       # Box/text/image rendering
 │   ├── graphics/       # Font, framebuffer, image decode
-│   ├── ui/             # UI widgets (+ XUI skin for Xbox)
+│   ├── ui/             # UI widgets (+Unused XUI skin for Xbox)
 │   ├── adblock/        # Ad-blocking
 │   ├── core/           # Types, translation, logo data
 │   └── platform/       # win32/ and xbox360/ platform layers
