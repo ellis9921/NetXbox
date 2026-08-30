@@ -1,0 +1,36 @@
+# Build outputs
+build/
+build_xbox/
+Debug/
+Release/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exe
+*.xex
+
+# Third-party vendored libraries
+thirdparty/
+
+# Local caches and tooling
+cache/
+tools/
+media/
+
+# Stray source/build test files
+fittest.c
+fittest.obj
+vc100.pdb
+
+# Runtime data / no secrets to commit
+cookies.txt
+
+# IDE / OS
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.cache
+Thumbs.db
+.DS_Store
