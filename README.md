@@ -4,6 +4,15 @@ A lightweight, self-contained **homebrew web browser** for **Windows** and the *
 
 NetXbox does **not** depend on WebKit/Blink or any embedded Chromium. It ships with its own HTML parser, CSS box layout, bitmap font renderer, and network stack, which keeps the binary tiny and lets the same core code run on both a desktop PC and an Xbox 360 console.
 
+> ## ⚠️ NOT READY YET — Work in progress
+>
+> This project is **not production-ready**. Please don't rely on it yet.
+>
+> - **No pages render yet.** Trying to search or open a page currently shows a blank/white screen in most cases. The core HTTP/parse/render pipeline is still being debugged.
+> - **Settings menu lags on Xbox 360.** Opening the settings menu on the console drops frames / lags noticeably. This is because an **in-game custom UI** is used there instead of the XUI skin, so it isn't fully optimized.
+>
+> These issues will be fixed in future updates. Treat this as an early experiment — the architecture is there, but it isn't usable as a browser yet.
+
 ---
 
 ## Features
